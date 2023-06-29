@@ -1,0 +1,8 @@
+sources:
+  red_panda:
+      description: Assorted red panda images
+      origin: 
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: ["zip://*/*/*.jpg::simplecache::https://zenodo.org/record/8074205/files/red_pandas.zip"]
+        chunks: {}
